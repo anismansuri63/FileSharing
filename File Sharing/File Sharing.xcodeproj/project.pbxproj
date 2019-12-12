@@ -353,7 +353,9 @@
 			baseConfigurationReference = 94D5B783F790F321F0C6F32E /* Pods-File Sharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development: Adam Esa (4J6W7HBVC6)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WNRNLYYK3W;
 				INFOPLIST_FILE = "File Sharing/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,6 +364,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.us.File-Sharing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "App Testing Common";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,7 +375,9 @@
 			baseConfigurationReference = 20E483188BA5811D96754CBB /* Pods-File Sharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development: Adam Esa (4J6W7HBVC6)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WNRNLYYK3W;
 				INFOPLIST_FILE = "File Sharing/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,6 +386,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.us.File-Sharing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "App Testing Common";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
