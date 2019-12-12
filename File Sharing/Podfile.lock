@@ -1,0 +1,22 @@
+PODS:
+  - FileExplorer (1.0.4)
+
+DEPENDENCIES:
+  - FileExplorer (from `https://github.com/anismansuri63/FileExplorer.git`, branch `dev-swift-5.0`)
+
+EXTERNAL SOURCES:
+  FileExplorer:
+    :branch: dev-swift-5.0
+    :git: https://github.com/anismansuri63/FileExplorer.git
+
+CHECKOUT OPTIONS:
+  FileExplorer:
+    :commit: 624b669c57838c3e86ba6a252f4cefe16b01ad14
+    :git: https://github.com/anismansuri63/FileExplorer.git
+
+SPEC CHECKSUMS:
+  FileExplorer: 9869dc386f080fa7c05083370b07ec0c8a4ced3f
+
+PODFILE CHECKSUM: ebf6002139906b91be02e99f9a0f15769389f96a
+
+COCOAPODS: 1.8.4
